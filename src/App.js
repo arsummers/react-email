@@ -62,6 +62,18 @@ class App extends React.Component{
     );
   }
 
+  onNameChange(event) {
+    this.setState({name: event.target.value})
+  }
+
+  onEmailChange(event) {
+    this.setState({email: event.target.value})
+  }
+
+  onMessageChange(event) {
+    this.setState({message: event.target.value})
+  }
+
   handleSubmit(e) {
     e.preventDefault();
   
@@ -82,22 +94,6 @@ class App extends React.Component{
         alert("Message failed to send.")
       }
     })
-  }
-
-
-  onNameChange(event) {
-    this.setState({name: event.target.value})
-  }
-
-  onEmailChange(event) {
-    this.setState({email: event.target.value})
-  }
-
-  onMessageChange(event) {
-    this.setState({message: event.target.value})
-  }
-
-  handleSubmit(event) {
   }
   
 }
