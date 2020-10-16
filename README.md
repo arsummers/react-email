@@ -69,3 +69,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 
 Using this tutorial: https://blog.mailtrap.io/react-contact-form/
+
+tabling for now to try a different tutorial, since finding my SMTP host is proving very difficult.
